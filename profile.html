@@ -1,0 +1,27 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <title>Profile</title>
+  <meta name="description" content="A temporary webpage for use with workflow" />
+</head>
+
+<body>
+  <h1>To Do</h1>
+  <h2>Change Profile</h2>
+   <p>Name:<input></input><input type="button" value="Change"></input></p>
+    <p>Email:<input></input><input type="button" value="Change"></input></p>
+    <p>Password:<input></input><input type="button" value="Change"></input></p>
+
+    <p>Delete Account:<input type="button" value="Delete" onclick="deleteAcct()"></input></p>
+
+    <script>
+      function deleteAcct() {
+        if (confirm("Are you sure?")) {
+          location.replace("Site.html")
+        } else {
+        }
+      }
+    </script>
+
+</body>
+</html>
